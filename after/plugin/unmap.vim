@@ -1,4 +1,4 @@
 " Remove Ack mappings from insert mode
-iunmap <Leader>ih
-iunmap <Leader>is
-iunmap <Leader>ihn
+silent! iunmap <Leader>ih
+silent! iunmap <Leader>is
+silent! iunmap <Leader>ihn
