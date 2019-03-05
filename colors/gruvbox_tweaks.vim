@@ -1,7 +1,7 @@
 "
 " Overwrite some colors
 "                        ctermbg      guibg         ctermfg     guifg         cterm      gui
-hi Normal                ctermbg=234  guibg=#1d2021
+hi Normal                ctermbg=233  guibg=#101010
 hi Todo                  ctermbg=166  guibg=#d65d0e   ctermfg=234 guifg=#1d2021 gui=none
 hi Visual                ctermbg=none guibg=bg      ctermfg=74  guifg=#5FAFD7
 
