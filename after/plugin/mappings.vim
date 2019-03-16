@@ -30,7 +30,6 @@ nmap <Tab> <C-w>w
 nnoremap <C-p> :FZF<cr>
 
 inoremap jj <ESC>
-inoremap jk <ESC>
 
 nnoremap ; :
 nnoremap : ;
