@@ -4,8 +4,10 @@ nnoremap <Leader>Q :q!<cr>
 nnoremap <Leader>fs :w<cr>
 nnoremap <Leader>fo :BufExplorer<cr>
 nnoremap <Leader>fe :Explore<cr>
+
 nnoremap <Leader>ft :NERDTreeFocus<cr>
 nnoremap <Leader>fT :NERDTreeToggle<cr>
+nnoremap <Leader>fr :NERDTreeRefreshRoot<cr>
 
 " nnoremap <Leader>ft :TagbarOpenAutoClose<cr>
 " nnoremap <Leader>fT :TagbarToggle<cr>
