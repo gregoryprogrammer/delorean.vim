@@ -69,11 +69,6 @@ vnoremap <silent> y y`]
 vnoremap <silent> p p`]
 nnoremap <silent> p p`]
 
-" Hit Enter to go to end of file.
-" Hit Backspace to go to beginning of file.
-nnoremap <cr> G
-nnoremap <bs> gg
-
 " Move between windows
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
