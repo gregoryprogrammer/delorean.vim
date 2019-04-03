@@ -4,6 +4,7 @@ nnoremap <Leader>Q :q!<cr>
 nnoremap <Leader>fs :w<cr>
 nnoremap <Leader>fo :BufExplorer<cr>
 nnoremap <Leader>fe :Explore<cr>
+nnoremap <Leader>fk :bp\|bd #<cr>
 
 nnoremap <Leader>ft :NERDTreeFocus<cr>
 nnoremap <Leader>fT :NERDTreeToggle<cr>
