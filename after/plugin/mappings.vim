@@ -5,6 +5,8 @@ nnoremap <Leader>fs :w<cr>
 nnoremap <Leader>fo :BufExplorer<cr>
 nnoremap <Leader>fe :Explore<cr>
 nnoremap <Leader>fk :bp\|bd #<cr>
+nnoremap <Leader>fn :vnew<cr>
+nnoremap <Leader>fN :new<cr>
 
 nnoremap <Leader>ft :NERDTreeFocus<cr>
 nnoremap <Leader>fT :NERDTreeToggle<cr>
@@ -18,6 +20,9 @@ nnoremap <Leader>fr :NERDTreeRefreshRoot<cr>
 nnoremap <Leader>wv :vsplit<cr>
 nnoremap <Leader>ws :split<cr>
 nnoremap <Leader>w= <c-w>=<cr>
+
+nnoremap <Leader>w. <c-w>10>
+nnoremap <Leader>w, <c-w>10<
 
 " Disable highlight of the search
 nnoremap <silent> <Leader>/ :noh<cr><esc>
