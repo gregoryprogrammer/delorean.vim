@@ -94,6 +94,14 @@ nnoremap <Leader>gd :Gdiff<CR>
 nnoremap <Leader>gs :Gstatus<CR>
 nnoremap <Leader>gb :Gblame<CR>
 
+" .---------------.
+" | YouCompleteMe |
+" '---------------'
+"
+
+nnoremap <Leader>yg :YcmCompleter GoTo<cr>
+nnoremap <Leader>yt :YcmCompleter GetType<cr>
+
 " Map Alt-k (M-k) to ^[k
 " execute "set <m-k>=\ek"
 " Format code with clang-format, only for cpp
