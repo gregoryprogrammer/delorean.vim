@@ -49,9 +49,11 @@ vnoremap : ;
 nnoremap j gj
 nnoremap k gk
 
-" .----------------------.
-" | Search, grep, manual |
-" '----------------------'
+"  .--------------------------------------------------------------------------.
+"  |                                                                          |
+"  |                          Search, grep, manual                            |
+"  |                                                                          |
+"  '--------------------------------------------------------------------------'
 "
 
 " Disable (cancel) highlight of the search
@@ -64,6 +66,15 @@ nnoremap <silent> <Leader>sW #``
 nnoremap <Leader>sa :Ack! <cword><cr>
 noremap K :!man 3 <cword><cr><esc>
 
+"  .--------------------------------------------------------------------------.
+"  |                                                                          |
+"  |                               Code frame                                 |
+"  |                                                                          |
+"  '--------------------------------------------------------------------------'
+"
+
+nnoremap <Leader>xf :read !code_frame.py <cword><cr>
+vnoremap <Leader>xf y:read !code_frame.py "<c-r>""<cr>
 
 " Copy & paste to system clipboard with <Space>p and <Space>y:
 vmap <Leader>y "+y
