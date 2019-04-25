@@ -8,6 +8,9 @@ nnoremap <Leader>fk :bp\|bd #<cr>
 nnoremap <Leader>fn :vnew<cr>
 nnoremap <Leader>fN :new<cr>
 
+" Switch header <-> source
+nnoremap <Leader>fa :A<cr>
+
 nnoremap <Leader>ft :NERDTreeFocus<cr>
 nnoremap <Leader>fT :NERDTreeToggle<cr>
 nnoremap <Leader>fr :NERDTreeRefreshRoot<cr>
@@ -23,9 +26,6 @@ nnoremap <Leader>w= <c-w>=<cr>
 
 nnoremap <Leader>w. <c-w>10>
 nnoremap <Leader>w, <c-w>10<
-
-" Disable highlight of the search
-nnoremap <silent> <Leader>/ :noh<cr><esc>
 
 noremap <Up> <Nop>
 noremap <Down> <Nop>
@@ -53,11 +53,17 @@ nnoremap k gk
 " | Search, grep, manual |
 " '----------------------'
 "
-nnoremap <Leader>A :Ack! <cword><cr>
+
+" Disable (cancel) highlight of the search
+nnoremap <silent> <Leader>sc :noh<cr><esc>
+
+" Search for the word under cursor and jump back
+nnoremap <silent> <Leader>sw *``
+nnoremap <silent> <Leader>sW #``
+
+nnoremap <Leader>sa :Ack! <cword><cr>
 noremap K :!man 3 <cword><cr><esc>
 
-" Switch header <-> source
-nnoremap <Leader>a :A<cr>
 
 " Copy & paste to system clipboard with <Space>p and <Space>y:
 vmap <Leader>y "+y
