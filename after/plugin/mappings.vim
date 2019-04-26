@@ -72,9 +72,8 @@ noremap K :!man 3 <cword><cr><esc>
 "  |                                                                          |
 "  '--------------------------------------------------------------------------'
 "
-
-nnoremap <Leader>xf :read !code_frame.py <cword><cr>
-vnoremap <Leader>xf y:read !code_frame.py "<c-r>""<cr>
+autocmd FileType c,cpp nnoremap <Leader>jf :.-2read !code_frame.py <cword><cr>
+autocmd FileType c,cpp vnoremap <Leader>jf y:.-2read !code_frame.py "<c-r>""<cr>
 
 " Copy & paste to system clipboard with <Space>p and <Space>y:
 vmap <Leader>y "+y
