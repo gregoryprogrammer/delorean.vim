@@ -64,6 +64,7 @@ nnoremap <silent> <Leader>sw *``
 nnoremap <silent> <Leader>sW #``
 
 nnoremap <Leader>sa :Ack! <cword><cr>
+nnoremap <Leader>sq :cclose<cr>
 noremap K :!man 3 <cword><cr><esc>
 
 "  .--------------------------------------------------------------------------.
@@ -109,6 +110,7 @@ nnoremap <Leader>gg :GitGutterStageHunk<CR>
 nnoremap <Leader>gd :Gdiff<CR>
 nnoremap <Leader>gs :Gstatus<CR>
 nnoremap <Leader>gb :Gblame<CR>
+nnoremap <Leader>gq :pclose<CR>
 
 " .---------------.
 " | YouCompleteMe |
