@@ -57,14 +57,13 @@ nnoremap k gk
 "
 
 " Disable (cancel) highlight of the search
-nnoremap <silent> <Leader>sq :noh<cr><esc>
+nnoremap <silent> <Leader>sq :noh<cr><esc>:cclose<cr>
 
 " Search for the word under cursor and jump back
 nnoremap <silent> <Leader>sw *``
 nnoremap <silent> <Leader>sW #``
 
 nnoremap <Leader>sa :Ack! <cword><cr>
-nnoremap <Leader>sc :cclose<cr>
 noremap K :!man 3 <cword><cr><esc>
 
 "  .--------------------------------------------------------------------------.
