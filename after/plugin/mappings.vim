@@ -2,11 +2,12 @@ nnoremap <Leader>q :q<cr>
 nnoremap <Leader>Q :q!<cr>
 
 nnoremap <Leader>fs :w<cr>
-nnoremap <Leader>fo :BufExplorer<cr>
 nnoremap <Leader>fe :Explore<cr>
-nnoremap <Leader>fk :bp\|bd #<cr>
-nnoremap <Leader>fn :vnew<cr>
-nnoremap <Leader>fN :new<cr>
+
+nnoremap <Leader>bo :BufExplorer<cr>
+nnoremap <Leader>bk :bp\|bd #<cr>
+nnoremap <Leader>bn :vnew<cr>
+nnoremap <Leader>bN :new<cr>
 
 " Switch header <-> source
 nnoremap <Leader>fa :A<cr>
