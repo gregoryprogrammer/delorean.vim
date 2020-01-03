@@ -4,10 +4,11 @@ nnoremap <Leader>Q :q!<cr>
 nnoremap <Leader>fs :w<cr>
 nnoremap <Leader>fe :Explore<cr>
 
-nnoremap <Leader>bo :BufExplorer<cr>
-nnoremap <Leader>bk :bp\|bd #<cr>
-nnoremap <Leader>bn :vnew<cr>
-nnoremap <Leader>bN :new<cr>
+nnoremap <Leader>fo :BufExplorer<cr>
+" Kill buffer
+nnoremap <Leader>fk :bp\|bd #<cr>
+nnoremap <Leader>fn :vnew<cr>
+nnoremap <Leader>fN :new<cr>
 
 " Switch header <-> source
 nnoremap <Leader>fa :A<cr>
