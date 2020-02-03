@@ -16,6 +16,7 @@ nnoremap <Leader>fa :A<cr>
 nnoremap <Leader>ft :NERDTreeFocus<cr>
 nnoremap <Leader>fT :NERDTreeToggle<cr>
 nnoremap <Leader>fr :NERDTreeRefreshRoot<cr>
+nnoremap <Leader>ff :NERDTreeFind<cr>
 
 " nnoremap <Leader>ft :TagbarOpenAutoClose<cr>
 " nnoremap <Leader>fT :TagbarToggle<cr>
