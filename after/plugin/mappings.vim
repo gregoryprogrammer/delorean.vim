@@ -25,8 +25,15 @@ nnoremap <Leader>ff :NERDTreeFind<cr>
 " Window operations
 nnoremap <Leader>wv :vsplit<cr>
 nnoremap <Leader>ws :split<cr>
-nnoremap <Leader>w= <c-w>=<cr>
+" Closes current window
+nnoremap <Leader>wc <c-w>c<cr>
+" Closes other windows
+nnoremap <Leader>wo <c-w>o<cr>
+" Moves the current window to the right
+nnoremap <Leader>wr <c-w>r<cr>
 
+" Sizing windows
+nnoremap <Leader>w= <c-w>=<cr>
 nnoremap <Leader>w. <c-w>10>
 nnoremap <Leader>w, <c-w>10<
 
