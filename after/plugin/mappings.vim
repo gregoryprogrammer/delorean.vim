@@ -34,8 +34,8 @@ nnoremap <Leader>wr <c-w>r<cr>
 
 " Sizing windows
 nnoremap <Leader>w= <c-w>=<cr>
-nnoremap <Leader>w. <c-w>10>
-nnoremap <Leader>w, <c-w>10<
+nnoremap <Leader>wl <c-w>10>
+nnoremap <Leader>wh <c-w>10<
 
 noremap <Up> <Nop>
 noremap <Down> <Nop>
