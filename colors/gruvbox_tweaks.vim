@@ -1,4 +1,5 @@
-"
+hi Normal                guifg=#EBDBB2 guibg=#1D2021
+
 " Overwrite some colors
 "                        ctermbg      guibg         ctermfg     guifg         cterm      gui
 " hi Normal                ctermbg=133  guibg=#101010
