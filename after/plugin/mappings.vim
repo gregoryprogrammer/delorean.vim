@@ -31,6 +31,10 @@ nnoremap <Leader>wc <c-w>c<cr>
 nnoremap <Leader>wo <c-w>o<cr>
 " Moves the current window to the right
 nnoremap <Leader>wr <c-w>r<cr>
+" Turn on diff between visible windows
+nnoremap <Leader>wd :windo diffthis<cr>
+" Turn off diff
+nnoremap <Leader>wD :diffoff!<cr>
 
 " Sizing windows
 nnoremap <Leader>w= <c-w>=<cr>
