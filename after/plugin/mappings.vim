@@ -63,6 +63,9 @@ vnoremap : ;
 nnoremap j gj
 nnoremap k gk
 
+" Remove all trailing whitespace
+nnoremap <Leader>js :%s/\s\+$//e<cr>
+
 "  .--------------------------------------------------------------------------.
 "  |                                                                          |
 "  |                          Search, grep, manual                            |
