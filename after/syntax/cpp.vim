@@ -5,7 +5,3 @@ syn keyword type b2Vec2 b2World b2Draw b2Body b2BodyDef b2PolygonShape b2Fixture
 
 syntax match type /\w\+_t\ze\W/
 syntax match type /\w\+_t$/
-
-syntax match type /\w\+_e\ze\W/
-syntax match type /\w\+_e$/
-
