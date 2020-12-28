@@ -1,3 +1,9 @@
+function! RefreshBuffer()
+    set noconfirm
+    bufdo e!
+    set confirm
+endfunction
+
 nnoremap <Leader>q :q<cr>
 nnoremap <Leader>Q :q!<cr>
 
@@ -15,7 +21,7 @@ nnoremap <Leader>fa :A<cr>
 
 nnoremap <Leader>ft :NERDTreeFocus<cr>
 nnoremap <Leader>fT :NERDTreeToggle<cr>
-nnoremap <Leader>fr :NERDTreeRefreshRoot<cr>
+nnoremap <Leader>fr :NERDTreeRefreshRoot<cr> :call RefreshBuffer()<cr>
 nnoremap <Leader>ff :NERDTreeFind<cr>
 
 " nnoremap <Leader>ft :TagbarOpenAutoClose<cr>
