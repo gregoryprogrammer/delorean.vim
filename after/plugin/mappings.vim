@@ -1,6 +1,6 @@
 function! RefreshBuffer()
     set noconfirm
-    bufdo e!
+    silent! bufdo e!
     set confirm
 endfunction
 
