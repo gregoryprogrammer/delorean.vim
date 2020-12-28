@@ -24,6 +24,23 @@ nnoremap <Leader>fT :NERDTreeToggle<cr>
 nnoremap <Leader>fr :NERDTreeRefreshRoot<cr> :call RefreshBuffer()<cr>
 nnoremap <Leader>ff :NERDTreeFind<cr>
 
+nnoremap <leader>tn :tabnew<cr>
+nnoremap <leader>tn :tabnew<cr>
+nnoremap <leader>tc :tabclose<cr>
+nnoremap <leader>tt :tabs<cr>
+
+" Go to tab by number
+noremap <leader>1 1gt
+noremap <leader>2 2gt
+noremap <leader>3 3gt
+noremap <leader>4 4gt
+noremap <leader>5 5gt
+noremap <leader>6 6gt
+noremap <leader>7 7gt
+noremap <leader>8 8gt
+noremap <leader>9 9gt
+noremap <leader>0 :tablast<cr>
+
 " nnoremap <Leader>ft :TagbarOpenAutoClose<cr>
 " nnoremap <Leader>fT :TagbarToggle<cr>
 " nnoremap <Leader>fy :TagbarTogglePause<cr>
