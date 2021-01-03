@@ -21,13 +21,16 @@ nnoremap <Leader>fa :A<cr>
 
 nnoremap <Leader>ft :NERDTreeFocus<cr>
 nnoremap <Leader>fT :NERDTreeToggle<cr>
-nnoremap <Leader>fr :NERDTreeRefreshRoot<cr> :call RefreshBuffer()<cr>
+nnoremap <Leader>fr :NERDTreeRefreshRoot<cr>
 nnoremap <Leader>ff :NERDTreeFind<cr>
 
 nnoremap <leader>tn :tabnew<cr>
 nnoremap <leader>tn :tabnew<cr>
 nnoremap <leader>tc :tabclose<cr>
 nnoremap <leader>tt :tabs<cr>
+
+" Buffer
+nnoremap <Leader>br :call RefreshBuffer()<cr>
 
 " Go to tab by number
 noremap <leader>1 1gt
