@@ -19,6 +19,10 @@ nnoremap <Leader>fN :new<cr>
 " Switch header <-> source
 nnoremap <Leader>fa :A<cr>
 
+" Format code
+nnoremap <Leader>jf :Autoformat<cr>
+nnoremap <F3> :Autoformat<cr>
+
 nnoremap <Leader>ft :NERDTreeFocus<cr>
 nnoremap <Leader>fT :NERDTreeToggle<cr>
 nnoremap <Leader>fr :NERDTreeRefreshRoot<cr>
@@ -124,10 +128,10 @@ noremap K :!man 3 <cword><cr><esc>
 "  |                                                                          |
 "  '--------------------------------------------------------------------------'
 "
-autocmd FileType c,cpp nnoremap <Leader>jf :.-2read !code_frame.py <cword><cr>
-autocmd FileType c,cpp vnoremap <Leader>jf y:.-2read !code_frame.py "<c-r>""<cr>
+autocmd FileType c,cpp nnoremap <Leader>cf :.-2read !code_frame.py <cword><cr>
+autocmd FileType c,cpp vnoremap <Leader>cf y:.-2read !code_frame.py "<c-r>""<cr>
 
-autocmd FileType c,cpp nnoremap <Leader>jt O//TODO(gregory) <esc><S-A>
+autocmd FileType c,cpp nnoremap <Leader>ct O//TODO(gregory) <esc><S-A>
 
 " Copy & paste to system clipboard with <Space>p and <Space>y:
 vmap <Leader>y "+y
